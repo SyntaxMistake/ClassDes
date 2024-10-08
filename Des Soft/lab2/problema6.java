@@ -40,5 +40,6 @@ class Salario{
         i=obj.incrementoSueldo();
         money = money + (money * i);
         System.out.println("El salario del empleado es"+" "+money+"\n");
+        System.out.println("No hay money");
     }
 }
