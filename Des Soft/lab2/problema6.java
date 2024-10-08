@@ -29,6 +29,9 @@ class Problema6 {
         }
         return s;
     }
+    public double calcularSueldo(double money, double i){
+        return money = money + (money * i);
+    }
 }
 
 class Salario{
@@ -38,8 +41,7 @@ class Salario{
         double money=1500.00;
         obj.asignarValores(5);
         i=obj.incrementoSueldo();
-        money = money + (money * i);
-        System.out.println("El salario del empleado es"+" "+money+"\n");
-        System.out.println("No hay money");
+        double moneyAct=obj.calcularSueldo(money, i);
+        System.out.println("El salario del empleado es"+" "+moneyAct+"\n");
     }
 }
