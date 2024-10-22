@@ -5,7 +5,7 @@ public class problema7 {
         hora=h1;
         sueldo=s1;
     }
-    public double calSueldoHora(){
+    public double calcularSueldoHora(){
         double sueldoTt=0;
         if(hora <=40){
             sueldoTt=sueldo*hora;
@@ -20,7 +20,7 @@ class SueldoPorHora{
     public static void main(String[] args) {
         problema7 obj = new problema7();
         obj.asignarValores(45, 50.75);
-        obj.calSueldoHora();
-        System.out.println("El saldo de Juan Perez es de "+ obj.calSueldoHora());
+        obj.calcularSueldoHora();
+        System.out.println("El saldo de Juan Perez es de "+ obj.calcularSueldoHora());
     }
 }
