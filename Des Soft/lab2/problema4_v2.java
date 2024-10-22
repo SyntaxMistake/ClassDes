@@ -26,6 +26,6 @@ class Ejecucion{
         y=obj.calcularRank();
         obj.asignarValores(x);
         z=obj.calcularKel();
-        System.out.println(+x+"\n"+y+"\n"+z+"\n");
+        System.out.println("Temperatura en Celcius: "+x+"\n"+"Temperatura en Rankine: "+y+"\n"+"Temperatura en Kelvin: " +z+"\n");
     }
 }
